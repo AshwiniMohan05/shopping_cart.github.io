@@ -1,0 +1,154 @@
+
+*{
+    margin: 10px;
+    padding: 10px;
+  }
+
+  body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+  }
+  .header{
+    overflow : hidden;
+    background-color: lightyellow;
+    height: 100px;
+    padding: 20px 10px;
+
+  }
+
+  .header a {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header a.logo 
+  {
+    font-size: 40px;
+    font-weight: bold;
+    float : left;
+    color : darkblue
+  }
+  .fg{
+    float : right;
+    top :0px;
+    width : 100px;
+    height : 50px;
+  }
+  .ab 
+  {
+    float : center;
+    top : 0px;
+    width : 100 px;
+    height : 50px;
+    
+  }
+  
+
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header-center {
+    float: center;
+  }
+   
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: right;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  .nav {
+    background-color: lightgoldenrodyellow;
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+   div.p{
+       font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+   }
+  .article{
+    background-color: lightyellow;
+    height: 600px;
+    overflow: scroll;
+
+    
+    
+  }
+ .nn
+ {
+   top : 90px;
+   left: 300px;
+   width: 250px;
+   height: 250px;
+   padding-left:40px ;
+   padding-top: 40px
+
+ }
+ .am
+ {
+
+   display: inline;
+   float:right;
+   position: relative;
+   top: -300px;
+  
+   width : 400px;
+   height: 250px;
+ }
+
+  footer{
+    background-color: lightyellow;
+    height: 100px;
+    padding : 20px;
+    font-size: 20px;
+  }
+  ul{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  }
+  div.ex1 {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+
+  
+  }
+  div.ex2
+  {
+
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    padding-left: 50x;
+display:inline-block;
+position: relative;
+left: 300px;
+top: -240px;
+
+  }
+  div.ex3
+  {
+    background-color : lightgrey;
+    width : 150px;
+    height : 200px;
+    overflow : scroll;
+    padding-left: 50px;
+    display : inline-block;
+    position : relative;
+    left : 600px;
+    top: -490px;
+  }
+  
