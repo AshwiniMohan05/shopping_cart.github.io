@@ -8,6 +8,7 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 34px;
+    background: "800px_COLOURBOX19090108.jpg";
   }
   .header{
     overflow : hidden;
@@ -81,7 +82,8 @@
     background-color: lightyellow;
     height: 600px;
     overflow: scroll;
-
+    width:20px;
+    height:20px;
     
     
   }
@@ -139,6 +141,7 @@ left: 300px;
 top: -240px;
 
   }
+  .srd{align:right;}
   div.ex3
   {
     background-color : lightgrey;
@@ -150,5 +153,10 @@ top: -240px;
     position : relative;
     left : 600px;
     top: -490px;
+  }
+  .xy
+  {
+    width: 200px;
+    height:100px;
   }
   
